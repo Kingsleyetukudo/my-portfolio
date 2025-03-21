@@ -143,5 +143,5 @@ body {
 }
 
 .reveal-up {
-  @apply translate-y-10;
+  @apply opacity-0 translate-y-10;
 }
