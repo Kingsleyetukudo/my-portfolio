@@ -32,15 +32,15 @@ const socials = [
   },
   {
     label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    href: "https://x.com/Kamzzyking",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "#",
   },
   {
     label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    href: "#",
   },
 ];
 

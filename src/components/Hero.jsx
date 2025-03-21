@@ -1,5 +1,9 @@
 import Avatar from "../images/avatar-1.png";
 import HeroBanner from "../images/my_portrait.png";
+import vue from "../images/vuejs.svg";
+import react from "../images/react.svg";
+import js from "../images/javascript.svg";
+import CV from "../assets/KINGSLEY-ETUKUDO-Resume.pdf";
 import { ButtonOutline, ButtonPrimary } from "./Button";
 const Hero = () => {
   return (
@@ -28,7 +32,7 @@ const Hero = () => {
             Building Scalable Modern Websites for the Future
           </h2>
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonPrimary label="Download CV" icon="download" href={CV} />
             <ButtonOutline
               href="#about"
               label="Scroll Down"
@@ -38,7 +42,31 @@ const Hero = () => {
         </div>
 
         <div className="hidden lg:block">
-          <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] ooverflow-hidden">
+          <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] ooverflow-hidden relative">
+            <img
+              src={vue}
+              alt=""
+              className="absolute animate-pulse top-[50px] left-[30px]"
+              width={30}
+            />
+            <img
+              src={js}
+              alt=""
+              className="absolute animate-pulse top-[50px] left-[30px]"
+              width={30}
+            />
+            <img
+              src={react}
+              alt=""
+              width={30}
+              className="absolute right-20 top-[40px] animate-pulse"
+            />
+            <img
+              src={js}
+              alt=""
+              width={30}
+              className="absolute right-[60px] top-[40px] animate-pulse"
+            />
             <img
               src={HeroBanner}
               alt="Kingsley Etukudo"

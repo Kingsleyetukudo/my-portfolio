@@ -15,11 +15,11 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch] ">
-            Welcome! I&apos;m Kingsley, a professional web developer with a
-            knack for crafting visually stunning and highly functional websites.
-            Combining creativity and technical expertise. I transform your
-            vision into digital masterpiece that excels in both appearance and
-            performance.
+            Welcome! I&apos;m Kingsley, a professional web developer
+            specializing in creating visually compelling and highly functional
+            websites. With a keen eye for design and a strong technical
+            foundation, I transform your vision into a seamless digital
+            experience that excels in both aesthetics and performance.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

@@ -68,7 +68,7 @@ const Review = () => {
   return (
     <section id="reviews" className="section overflow-hidden">
       <div className="container">
-        <h2 className="headline-2 mb-18 reveal-up">What our customers say</h2>
+        <h2 className="headline-2 mb-8 reveal-up">What our customers say</h2>
 
         <div className="embla" ref={emblaRef}>
           <div className="embla__container flex gap-3">

@@ -6,6 +6,14 @@ import expressjs from "../images/expressjs.svg";
 import mongodb from "../images/mongodb.svg";
 import react from "../images/react.svg";
 import tailwindcss from "../images/tailwindcss.svg";
+import wordpress from "../images/wordpress.svg";
+import elementor from "../images/elementor.svg";
+import vue from "../images/vuejs.svg";
+import git from "../images/git.svg";
+import pinia from "../images/pinia.svg";
+import redux from "../images/redux.svg";
+import graphql from "../images/graphql.svg";
+import firebase from "../images/firebase.svg";
 import SkillCard from "./SkillCard";
 
 const skillItem = [
@@ -25,6 +33,11 @@ const skillItem = [
     desc: "Interaction",
   },
   {
+    imgSrc: git,
+    label: "Git Hub",
+    desc: "Version Control",
+  },
+  {
     imgSrc: nodejs,
     label: "NodeJS",
     desc: "Web Server",
@@ -40,14 +53,49 @@ const skillItem = [
     desc: "Database",
   },
   {
+    imgSrc: firebase,
+    label: "Firebase",
+    desc: "Database",
+  },
+  {
+    imgSrc: pinia,
+    label: "Pinia",
+    desc: "State Management (VueJs)",
+  },
+  {
+    imgSrc: redux,
+    label: "Redux",
+    desc: "State Management (ReactJs)",
+  },
+  {
     imgSrc: react,
     label: "React",
     desc: "Framework",
   },
   {
+    imgSrc: vue,
+    label: "Vue",
+    desc: "Framework",
+  },
+  {
+    imgSrc: graphql,
+    label: "GraphQL",
+    desc: "Alternative to REST APIs",
+  },
+  {
     imgSrc: tailwindcss,
     label: "TailwindCSS",
     desc: "User Interface",
+  },
+  {
+    imgSrc: wordpress,
+    label: "WordPress",
+    desc: "CMS",
+  },
+  {
+    imgSrc: elementor,
+    label: "Elementor",
+    desc: "CMS Page Builder",
   },
 ];
 
