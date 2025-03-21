@@ -31,6 +31,27 @@ const Hero = () => {
           <h2 className=" headline-1 max-w-[15ch] sm-w-[20ch] lg:max-w-[15ch] mt-5  mb-8 lg:mb-10">
             Building Scalable Modern Websites for the Future
           </h2>
+          <div className="md:hidden">
+            <img
+              src={vue}
+              alt=""
+              className="absolute animate-pulse top-[270px] left-[200px]"
+              width={30}
+            />
+
+            <img
+              src={react}
+              alt=""
+              width={30}
+              className="absolute right-20 top-[100px] animate-pulse"
+            />
+            <img
+              src={js}
+              alt=""
+              width={30}
+              className="absolute left-[150px] bottom-[250px] animate-pulse"
+            />
+          </div>
           <div className="flex items-center gap-3">
             <ButtonPrimary label="Download CV" icon="download" href={CV} />
             <ButtonOutline
@@ -46,26 +67,21 @@ const Hero = () => {
             <img
               src={vue}
               alt=""
-              className="absolute animate-pulse top-[50px] left-[30px]"
+              className="absolute animate-pulse top-[150px] left-[30px]"
               width={30}
             />
-            <img
-              src={js}
-              alt=""
-              className="absolute animate-pulse top-[50px] left-[30px]"
-              width={30}
-            />
+
             <img
               src={react}
               alt=""
               width={30}
-              className="absolute right-20 top-[40px] animate-pulse"
+              className="absolute right-20 top-[100px] animate-pulse"
             />
             <img
               src={js}
               alt=""
               width={30}
-              className="absolute right-[60px] top-[40px] animate-pulse"
+              className="absolute left-[150px] bottom-[170px] animate-pulse"
             />
             <img
               src={HeroBanner}
