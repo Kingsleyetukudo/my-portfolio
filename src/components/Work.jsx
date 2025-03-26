@@ -1,47 +1,47 @@
 import ProjectCard from "./ProjectCard";
-import project1 from "../images/project-1.jpg";
-import project2 from "../images/project-2.jpg";
-import project3 from "../images/project-3.jpg";
-import project4 from "../images/project-4.jpg";
-import project5 from "../images/project-5.jpg";
-import project6 from "../images/project-6.jpg";
+import project2 from "../images/project-2.png";
+import project1 from "../images/project-1.png";
+import project3 from "../images/project-3.png";
+import project4 from "../images/project-4.png";
+import project5 from "../images/project-5.png";
+import project6 from "../images/project-6.png";
 
 const works = [
   {
     imgSrc: project1,
-    title: "Full stack music app",
-    tags: ["API", "MVC", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    title: "Full stack mini-social app",
+    tags: ["API", "Firebase", "Vuejs", "Development"],
+    projectLink: "https://ikanchat.netlify.app/",
   },
   {
     imgSrc: project2,
-    title: "Free stock photo app",
-    tags: ["API", "SPA"],
-    projectLink: "https://pixstock-official.vercel.app/",
+    title: "School Management System",
+    tags: ["API", "Development", "Nodejs", "Vuejs"],
+    projectLink: "https://schoolistix.netlify.app/",
   },
   {
     imgSrc: project3,
-    title: "Recipe app",
-    tags: ["Development", "API"],
-    projectLink: "",
+    title: "Simple Dashboard",
+    tags: ["Development", "Reactjs"],
+    projectLink: "https://tasknownow.netlify.app/",
   },
   {
     imgSrc: project4,
-    title: "Real estate website",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee-org/wealthome",
+    title: "Country Flag Website",
+    tags: ["Web-design", "Development", "Reactjs", "API"],
+    projectLink: "https://countriesdetailwithborders.netlify.app/",
   },
   {
     imgSrc: project5,
-    title: "eCommerce website",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://github.com/codewithsadee/anon-ecommerce-website",
+    title: "Employee Board",
+    tags: ["JS", "Development"],
+    projectLink: "https://employeetag.netlify.app/",
   },
   {
     imgSrc: project6,
-    title: "vCard Personal portfolio",
+    title: "Simple Bookmark Site",
     tags: ["Web-design", "Development"],
-    projectLink: "https://github.com/codewithsadee/vcard-personal-portfolio",
+    projectLink: "https://bookmarklandingpagefrontend.netlify.app/",
   },
 ];
 
